@@ -1,13 +1,12 @@
 # iocx-dev
 
-The official developer ecosystem for IOC extraction, enrichment, and YARA generation.
+The official developer ecosystem for IOC extraction, and enrichment.
 
-Welcome to iocx‑dev, the home of the `iocx` and `yarx` toolchain — a modern, extensible ecosystem for extracting Indicators of Compromise (IOCs), enriching them, and generating high‑quality YARA rules.
+Welcome to iocx‑dev, the home of the `iocx` toolchain — a modern, extensible ecosystem for extracting Indicators of Compromise (IOCs), enriching them, and performing deterministic static analysis.
 
 This organisation hosts:
 
 - the iocx core engine
-- the yarx YARA generation framework
 - the official plugin ecosystem
 - templates, examples, and documentation
 - tooling and integrations built around the platform
@@ -19,10 +18,6 @@ All projects in this organisation are created and maintained by malx‑labs.
 ## iocx
 
 The core IOC extraction engine. Fast, modular, and built for real‑world DFIR workflows.
-
-## yarx
-
-A modern YARA rule generator designed to pair naturally with `iocx`.
 
 ## Plugin ecosystem
 
@@ -52,7 +47,7 @@ The iocx‑dev ecosystem is built to support:
 - automation engineers
 - SOC tooling pipelines
 
-Whether you’re extracting IOCs from logs, generating YARA rules from samples, or building custom detectors, this ecosystem gives you the foundation.
+Whether you’re extracting IOCs from logs, or building custom detectors, this ecosystem gives you the foundation.
 
 # 🛠️ Contributing
 
@@ -65,7 +60,7 @@ We welcome contributions across:
 - integrations
 - bug reports and feature ideas
 
-If you’re building something on top of `iocx` or `yarx`, we’d love to see it.
+If you’re building something on top of `iocx` we’d love to see it.
 
 # 📚 Documentation
 
@@ -93,7 +88,6 @@ This template provides:
 # 🧭 Roadmap
 
 - v0.4.0: plugin system, new detectors, ecosystem launch
-- yarx integration
 - expanded plugin registry
 - documentation site at iocx.dev
 - community plugin submissions
@@ -101,4 +95,4 @@ This template provides:
 
 # 🏢 Maintained by
 
-malx‑labs - Creators of `iocx`, `yarx`, and the surrounding ecosystem. 
+malx‑labs - Creators of `iocx`, and the surrounding ecosystem. 
